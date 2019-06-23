@@ -2,6 +2,7 @@
 namespace derekisbusy\wow;
 
 use yii\web\AssetBundle;
+use yii\web\View;
 
 class WowAsset extends AssetBundle
 {
@@ -11,7 +12,7 @@ class WowAsset extends AssetBundle
         YII_ENV_DEV ? 'js/wow.js' : 'js/wow.min.js'
     ];
     
-    public function register($view)
+    public static function register($view)
     {
         parent::register($view);
         
