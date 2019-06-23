@@ -1,0 +1,21 @@
+{
+    "name": "derekisbusy/yii2-wow",
+    "description": "Wow.js asset for Yii2 projects",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," wow"," html5"," js"," css"," scroll events"," yii2-extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derek Gifford",
+            "email": "derekisbusy@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "derekisbusy\\wow\\": ""
+        }
+    }
+}
